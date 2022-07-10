@@ -2,9 +2,9 @@
 :root { 
     --accent-color:#2196F3; /*--Колір наведення--*/
     --primery-font: 'Roboto', sans-serif; /*--Головний шрифт--*/
-    --secondary-font: 'Raleway', sans-serif;} /*--Другорядний шрифт--*/
-    /*--primery-text-colour: */               /*--Головний колір тексту--*/ 
-    /*--secondary-text-colour: */               /*--Другорядний колір тексту--*/
+    --secondary-font: 'Raleway', sans-serif; /*--Другорядний шрифт--*/
+    --primery-text-colour: #212121;        /*--Головний колір тексту--*/ 
+    --secondary-text-colour: #757575;}     /*--Другорядний колір тексту--*/
 
     /*--Прибираємо крапки списків--*/
 .list {list-style: none;}
@@ -12,7 +12,7 @@
 .link {text-decoration: none;}
     /*--Задаємо шрифт всьому документу--*/
 body {font-family: var(--primery-font);
-      color: #212121}
+      color: var(--primery-text-colour)}
     /*font-size: ;
       font-family: ;
       font-weight: ;*/
@@ -42,7 +42,7 @@ body {font-family: var(--primery-font);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;}
+    color: var(--primery-text-colour);}
     /*--Додаємо ефект наведення--*/
 .menu-link:hover,
 .menu-link:focus{
@@ -53,7 +53,7 @@ body {font-family: var(--primery-font);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;}
+    color: var(--secondary-text-colour);}
     /*--Додаємо ефект наведення--*/
 .header-mail:hover,
 .header-mail:focus {
@@ -64,7 +64,7 @@ body {font-family: var(--primery-font);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;}
+    color: var(--secondary-text-colour);}
 
 /*======= HERO =======*/
 
@@ -99,7 +99,7 @@ body {font-family: var(--primery-font);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;}
+    color: var(--secondary-text-colour);}
 
 /*======= WHAT WE DO =======*/
 
@@ -115,7 +115,7 @@ body {font-family: var(--primery-font);
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #757575;}
+    color: var(--secondary-text-colour);}
 
 /*======= PORTFOLIO =======*/
 
@@ -126,6 +126,7 @@ body {font-family: var(--primery-font);
     letter-spacing: 0.03em;
     background: #F5F4FA;
     cursor: pointer;}
+    /*--Додаємо ефект наведення--*/
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: #FFFFFF;
@@ -141,7 +142,7 @@ body {font-family: var(--primery-font);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;}
+    color: var(--secondary-text-colour);}
 
 /*======= FOOTER =======*/
 
