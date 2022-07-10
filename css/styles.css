@@ -1,0 +1,157 @@
+    /*--Змінні для подальшої підтримки проекту--*/
+:root { 
+    --accent-color:#2196F3; /*--Колір наведення--*/
+    --primery-font: 'Roboto', sans-serif; /*--Головний шрифт--*/
+    --secondary-font: 'Raleway', sans-serif;} /*--Другорядний шрифт--*/
+    /*--primery-text-colour: */               /*--Головний колір тексту--*/ 
+    /*--secondary-text-colour: */               /*--Другорядний колір тексту--*/
+
+    /*--Прибираємо крапки списків--*/
+.list {list-style: none;}
+    /*--Прибираємо підкреслювання посилань--*/
+.link {text-decoration: none;}
+    /*--Задаємо шрифт всьому документу--*/
+body {font-family: var(--primery-font);
+      color: #212121}
+    /*font-size: ;
+      font-family: ;
+      font-weight: ;*/
+
+/*======= COMPONENTS =======*/
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;}
+.logo-span {color: #2196F3;}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;}
+
+/*======= HEADER =======*/
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;}
+    /*--Додаємо ефект наведення--*/
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--accent-color);}
+
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;}
+    /*--Додаємо ефект наведення--*/
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--accent-color)}
+
+.header-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;}
+
+/*======= HERO =======*/
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;}
+
+.modal-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    /*--Додаємо ефект курсора ладоньки--*/
+    cursor: pointer;}
+
+/*======= OUR ADVANTAGES =======*/
+
+.section-title-advantages {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.section-description-advantages {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;}
+
+/*======= WHAT WE DO =======*/
+
+/*======= OUR TEAM =======*/
+
+.employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;}
+
+.employee-position {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;}
+
+/*======= PORTFOLIO =======*/
+
+.portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    cursor: pointer;}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: #FFFFFF;
+    background: #2196F3;}
+ 
+.portfolio-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;}
+
+.portfolio-type {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;}
+
+/*======= FOOTER =======*/
+
+.logo-footer {color:#FFFFFF;}
+
+.footer-contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);}
+
+.footer-contact-address {color: #FFFFFF;}
